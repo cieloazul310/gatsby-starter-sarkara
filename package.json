@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-starter-sarkara",
+  "private": true,
+  "version": "0.0.3",
+  "main": "index.js",
+  "scripts": {
+    "start": "gatsby develop -o",
+    "clean": "gatsby clean",
+    "build": "gatsby build --prefix-paths",
+    "serve": "gatsby serve -o --prefix-paths",
+    "lint": "eslint src/*"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^3.1.1",
+    "@chakra-ui/icons": "^2.0.17",
+    "@chakra-ui/react": "^2.4.9",
+    "@cieloazul310/gatsby-theme-sarkara": "latest",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.5.0",
+    "gatsby": "^5.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "eslint": "^8.32.0",
+    "typescript": "^4.9.4"
+  }
+}
