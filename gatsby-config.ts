@@ -10,6 +10,13 @@ const config: GatsbyConfig = {
   plugins: [
     `@chakra-ui/gatsby-plugin`,
     `@cieloazul310/gatsby-theme-sarkara`,
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        color: `#ED8936`,
+        showSpinner: false,
+      },
+    },
   ],
 };
 
